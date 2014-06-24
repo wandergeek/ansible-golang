@@ -1,5 +1,5 @@
 ---
-- name: test buildbox role
+- name: install golang
   hosts: all
   sudo: yes
   vars_files:
