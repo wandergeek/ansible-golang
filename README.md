@@ -4,7 +4,7 @@ This is an ansible role which compiles Go and installs on the target machine
 
 # Role Variables
 
-The following variables have been defined for Go v1.3. They will need to be updated as new versions come out.
+The following variables have been defined for Go v1.3. They will need to be updated as new versions come out. The Go downloads page can be found at http://golang.org/dl/.
 
 ```
 go_tarball: "go1.3.src.tar.gz"
