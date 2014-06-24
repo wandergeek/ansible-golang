@@ -9,8 +9,3 @@
 
 - name: Compile Go
   shell: cd /usr/local/go/src && ./all.bash
-
-#
-# - name: Add the Go bin directory to the PATH environment variable for all users
-#   copy: src=go-bin.sh
-#         dest=/etc/profile.d
