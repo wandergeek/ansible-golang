@@ -12,3 +12,16 @@ go_download_location: "http://golang.org/dl/go1.3.src.tar.gz"
 go_tarball_checksum: "eb983e6c5b2b9838f482c5442b1ac1856f610f2b21f3c123b3fedb48ffc35382"
 
 ```
+
+# Example Playbook
+
+```yaml
+- hosts: servers
+  roles:
+     - { role: wolfeidau.golang }
+```
+
+# License
+
+Copyright (c) 2014 Nick Clark
+Licensed under the MIT license.
