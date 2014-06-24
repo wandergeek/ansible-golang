@@ -18,7 +18,7 @@ go_tarball_checksum: "eb983e6c5b2b9838f482c5442b1ac1856f610f2b21f3c123b3fedb48ff
 ```yaml
 - hosts: servers
   roles:
-     - { role: wolfeidau.golang }
+     - { role: wandergeek.golang }
 ```
 
 # License
