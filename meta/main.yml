@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: Mark Wolfe
-  description: Installs and configures the buildbox agent.
+  author: Nick Clark
+  description: Compiles and installs Golang
   company: Ninja Blocks
   license: MIT
 
