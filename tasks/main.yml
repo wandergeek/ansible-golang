@@ -26,7 +26,6 @@
   copy:
     content: "export PATH=$PATH:/usr/local/go/bin"
     dest: /etc/profile.d/golang.sh
-  when: go_version|failed or go_version.stdout != go_version_target
 
 - name: Download cross compile tools
   get_url: url={{ cctools_pkg_url }}
