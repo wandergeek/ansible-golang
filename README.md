@@ -1,6 +1,6 @@
 # ansible-golang
 
-This is an ansible role which compiles Go and installs on the target machine
+This is an ansible role which compiles Go and installs cross compile environment on the target machine.
 
 # Role Variables
 
