@@ -9,7 +9,7 @@
   when: go_version|failed or go_version.stdout != go_version_target
 
 - name: Download the Go tarball
-  get_url: url={{ go_pkg_url }}
+  get_url: url={{ go_download_location }}
            dest=/usr/local/src/{{ go_tarball }}
            sha256sum={{ go_tarball_checksum }}
   when: go_version|failed or go_version.stdout != go_version_target
